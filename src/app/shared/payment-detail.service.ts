@@ -6,7 +6,7 @@ import { environment } from '../../environments/environment';
   providedIn: 'root'
 })
 export class PaymentDetailService {
- url:string= environment.apiBaseUrl + '/PaymentDetails';
+ url:string= environment.apiBaseUrl + '/PaymentDetail';
   constructor(private http: HttpClient) { }
 
   refreshList() {
